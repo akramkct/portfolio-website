@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flip Rotation</title>
+	<style>
+		.maincontainer{
+			position: relative;
+			width: 280px;
+			height: 350px;
+			margin: 111px;
+			margin-left: 500px;
+		}
+		.thecard{
+			position: absolute;
+			width: 100%;
+			height:100%;
+			transform-style:preserve-3d;
+			transition:  0.5s ease;
+		}
+		.thecard:hover{
+			transform: rotateY(180deg);
+		}
+		.thefront{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+			background:blueviolet;
+			color: #333;
+			text-align: center;
+			font-family:cursive;
+			font-weight: bold;
+			overflow: hidden;
+			font-size: 18px;
+			border-radius:20px;
+			box-shadow: 1px 5px  20px  10px blueviolet;
+		}
+		.theback{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+			background:cyan;
+			color: #333;
+			text-align: center;
+			font-family:countryside;
+			font-weight: bold;
+			font-size: 18px;
+			overflow: hidden;
+			border-radius:20px;
+			box-shadow: 1px 5px  20px  10px cyan ;
+			transform: rotateY(180deg);
+		}
+	</style>
+</head>
+<body bgcolor="black">
+	<div class="maincontainer container">
+		<div class="thecard">
+			<div class="thefront">
+				<h2>Hello India</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br/> sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam,<br/>
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br/> commodo
+				consequat.</p>
+			</div>
+			<div class="theback">
+				<h2>Hello World</h2>
+				<p>whfjsdlfklaksldfffffffffffffff<br/>djkkkkkkkkkkkkkkkkcv<br/>cjkasvddddddddddddddd<br/>jaekfsdddddvssssssss<br/>ssssssssss<br/>ssssssssss<br/>ssssssssjsadk<br/>sfgeggggggggggggg<br/>ggggggggg</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	
+</body>
+</html>

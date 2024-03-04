@@ -1,0 +1,218 @@
+
+
+@import url(./fonts.css);
+
+/*---------------start navbar -----------------*/
+
+.navbar{
+    padding:1rem 5rem;
+}
+.menu.nav-item.nav-link{
+    font-family:"Roboto";
+}
+.menu .navbar-nav a{
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    color: rgb(41, 234, 248);
+}
+.navbar ul li:last-child{
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+}
+.navbar ul li button{
+    background-color: rgb(250, 249, 251);
+    color: rgb(38, 35, 35);
+    size: 20px;
+    width: 60px;
+    border-color: aquamarine;
+    border-top-left-radius:20% ;
+    border-bottom-right-radius: 20%;
+    font-family: sans-serif ;
+}
+
+/*--------------end navbar-------------- -*/
+
+body{
+    background:rgba(215, 205, 252, 0.932)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    padding:0px;
+}
+/*---------------- start banner section----------------*/
+
+.text-title{
+    font-weight:500;
+}
+.h3 h3::after{
+    content:" ";
+    height: 2px;
+    width: 18vw;
+    background:black;
+    display: inline-block;
+    margin-left: 5%;
+    transform:translateY(-10px)
+}
+.pic{
+    height: 50%;
+    padding:0 0 2rem 0 ;
+}
+
+.btn{
+    padding: .6rem 1.5rem;
+    font: normal 500 16px/20px roboto ;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+.btn-primary{
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: .6s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61,0.205);
+}
+.btn-primary:hover{
+    background:whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+/*----------------- end banner section----------*/
+
+/*---------------- start about-section-----------*/
+
+.about-section{
+    padding: 5rem 12rem;
+}
+.about-section img{
+    height: 60%;
+    padding: 5rem 0;
+}
+.about-section h2>span{
+    display: block;
+    font: normal bold 35px/60px roboto;
+    letter-spacing: 22px;
+}
+.about-img{
+    margin-top: 5rem;
+}
+.about-title{
+    margin-top: 1rem;
+}
+.tab-links{
+ font-size: 18px;
+ cursor: pointer;
+ position: relative;
+
+}
+.tab-links::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s ; 
+}
+.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-content ul li span{
+     color: #da1212;
+     font-size: 15px;
+}
+.tab-content ul li{
+    list-style: none;
+}
+.tab-content{
+    display: none;
+}
+.tab-content.active-tab{
+    display:block
+}
+
+/*--------- end about-section--------*/
+.card1{
+    background:black;
+    color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    border-radius: 4px;
+    
+}
+.card1:hover{
+    transform:rotateY(180deg);
+    transition: ease-in-out 1s;
+    box-shadow: 1px 5px 20px 10px rgb(112, 112, 126);
+}
+
+
+/*--------------------start project-area-----------*/
+.project-area{
+    padding: 4rem 0;
+}
+.project-area.grid.our-project>.title h4{
+    font: normal 700 25px/12px roboto;
+}
+
+
+/* .skill{
+    text-shadow:-1px 3px 3px rgb(56, 221, 210);
+    font-size: 50px;
+    box-shadow: -3px -3px 7px #ffffff,
+     3px 3px 5px #ceced1,
+     inset -3px -3px 7px #ffffff,
+    inset 3px 3px 5px #ceced1;
+    border-radius: 2px;
+    font-family: initial;
+    font-weight: 800;
+} */
+
+.skill{
+    position: relative;
+    text-align: center;
+}
+.skill h6{
+    color:#881da8;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#881da8
+    letter-spacing: 8px;
+    font-size:16px;
+    font-weight: 630;
+    top:20px;
+    text-transform: uppercase;
+}
+.skill h1{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 0px 8px  rgb(0 0 0 / 13%);
+    margin-top: 80px;
+}
+.skill span{
+    color: transparent;
+    font-weight: 300;
+    font-size:13vh;
+    letter-spacing:5px;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    right:0px;
+   // bottom:0px;
+    left:0px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    margin-top:0px;
+}
+.bars{
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    top: 10rem ;
+}
