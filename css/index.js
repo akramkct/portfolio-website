@@ -19,3 +19,4 @@ function opentab(a){
     event.currentTarget.classList.add("active-link");
     document.getElementById(a).classList.add("active-tab");
 }
+

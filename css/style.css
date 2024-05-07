@@ -13,10 +13,10 @@
 .menu .navbar-nav a{
     font-size: 18px;
 }
-.navbar ul li a:hover{
+.navbar ul li a:hover{  
     color: rgb(41, 234, 248);
 }
-.navbar ul li:last-child{
+/*.navbar ul li:last-child{
     padding-top: 0.5rem;
     margin-left: 1rem;
 }
@@ -29,7 +29,7 @@
     border-top-left-radius:20% ;
     border-bottom-right-radius: 20%;
     font-family: sans-serif ;
-}
+}*/
 
 /*--------------end navbar-------------- -*/
 
@@ -293,5 +293,16 @@ body{
 .card .btn{ 
     background-color: #ff004f;
     
+    
+}
+#remember{
+    margin-top:10px;
+    margin-left: 4px;
+    color: #fff;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
